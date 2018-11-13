@@ -166,6 +166,15 @@ input, select, textarea {
 			text-decoration: none;
 		}
 
+	h6 {
+		color: #61686b;
+		font-weight: 300;
+		letter-spacing: 0.05em;
+		line-height: 1em;
+		margin: 0 0 1em 0;
+		text-transform: uppercase;
+	}
+
 	h2 {
 		font-size: 1.75em;
 		line-height: 1.5em;
@@ -187,7 +196,7 @@ input, select, textarea {
 	}
 
 	h6 {
-		font-size: 0.7em;
+		font-size: 0.5em;
 		line-height: 1.5em;
 	}
 
