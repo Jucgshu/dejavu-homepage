@@ -1,4 +1,5 @@
 @import url("font-awesome.min.css");
+@import url("menubar.css");
 @import url("../fonts/font-awesome");
 
 /*
@@ -2969,6 +2970,12 @@ input, select, textarea {
 			h2 {
 				font-size: 1.35em;
 			}
+			
+		/* Navigation bar */
+		
+			nav {
+    				padding: 0 40px !important;
+			}
 
 		/* Main */
 
@@ -3026,6 +3033,12 @@ input, select, textarea {
 
 			html, body {
 				min-width: 320px;
+			}
+			
+		/* Navigation bar */
+		
+			nav {
+    				padding: 0 40px !important;
 			}
 
 		/* List */
