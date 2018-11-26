@@ -10,28 +10,28 @@
     position: fixed;
     top: 12px;
     right: 15px;
-    filter:grayscale(100%);
+    filter: grayscale(100%);
 }
 
 .navleft a {
     position: inherit;
     text-align: center;
     padding: 14px 16px;
-    text-decoration: none;
 }
 
 .navright a {
     position: inherit;
-    padding: 3px 3px;
+    padding: 14px 16px;
 }
 
 .navleft a:hover {
-    position: inherit;
     color: #ffffff;
     background-color: #7aca9a;
+    transition: all 0.5s ease;
 }
 
 .navright a:hover {
-    position: inherit;
-    filter: hue-rotate(20deg);
+    filter: grayscale(0%);
+    border-bottom: 3px solid #61686b;
+    transition: all 1.5s ease;
 }
